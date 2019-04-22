@@ -40,3 +40,7 @@ public function generateRandomString($length = 10)
     }
     return $randomString;
 }
+
+
+// $code = generateReferralCode("Tony Stark");
+// echo $code; // TONXYZ1
