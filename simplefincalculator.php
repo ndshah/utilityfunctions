@@ -1,6 +1,9 @@
 <?php
-// code will be placed here
-
+if (isset($_POST['submitcalc'])) {
+    // code will be placed here
+} else {
+    echo "Unauthorized access!";die;
+}
 // method 1: calculate total income
 
 // method 2: calculate total expense
