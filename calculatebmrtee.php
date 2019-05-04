@@ -1,5 +1,5 @@
 <?php
-public function calculateBmrTee($frequently_exercise, $weight, $gender, $fat, $age, $height = 0)
+function calculateBmrTee($frequently_exercise, $weight, $gender, $fat, $age, $height = 0)
 {
     switch ($frequently_exercise) {
         case '1':
